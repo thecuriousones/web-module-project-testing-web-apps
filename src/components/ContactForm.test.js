@@ -157,8 +157,4 @@ test('renders all fields text when all fields are submitted.', async () => {
         expect(screen.getByTestId("emailDisplay")).toBeInTheDocument;
         expect(screen.getByTestId("messageDisplay")).toBeInTheDocument;
     });
-    // expect(screen.getByTestId("firstnameDisplay")).toBeInTheDocument;
-    // expect(screen.getByTestId("lastnameDisplay")).toBeInTheDocument;
-    // expect(screen.getByTestId("emailDisplay")).toBeInTheDocument;
-    // expect(screen.getByTestId("messageDisplay")).toBeInTheDocument;
 });
